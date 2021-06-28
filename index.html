@@ -1,1 +1,27 @@
-test
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>JSTest</title>
+</head>
+<body>
+
+<canvas id="fifthsoverlay"
+	onmousedown="handleMouseDown(event)"
+	onmousemove="handleMouseMove(event)"
+	onmouseup="handleMouseUp(event)"
+	onmouseout="handleMouseOut(event)"
+	ontouchstart="handleTouchStart(event)"
+	ontouchmove="handleTouchMove(event)"
+	ontouchend="handleTouchEnd(event)"
+	ontouchcancel= "handleTouchCancel(event)"
+>Your browser does not support the canvas tag.</canvas>
+
+<img id="fifthsimg" src="fifthscircle.png" style="display:none"/>
+
+<img id="overlayimg" src="fifthsoverlay.png" style="display:none"/>
+
+<script type="text/javascript" src="image_rotator.js"></script>
+
+</body>
+</html>
